@@ -1,0 +1,121 @@
+.main {
+    margin: 20px;
+}
+
+.navbar {
+    background-color: darkred;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px
+}
+.navbar_title h1{
+    font-weight: normal;
+    color: white;
+    font-size: 18px;
+    font-family: Arial;
+    padding-left: 10px;
+}
+.navbar_menu a{
+    padding-left: 10px;
+    font-family: Arial;
+    text-decoration: none;
+    color: white;
+    opacity: 50%;
+}
+.navbar_menu a:hover {
+    text-decoration: underline;
+}
+.navbar_menu a:last-child {
+    padding-right: 10px;
+}
+
+.topnews {
+    margin-top: 15px;
+    display: flex;
+    background-color: #aed9db
+}
+.topnews_image {
+    padding: 20px;
+    width: 35%;
+}
+.topnews_image img {
+    height: 100%;
+    width: 100%
+}
+.topnews_text {
+    width: 65%;
+    font-family: Arial;
+    padding: 20px 20px 20px 0;
+}
+.topnews_text h1 {
+    font-size: 26px;
+    margin: 0;
+}
+.topnews_text a{
+    text-decoration: none;
+    color: black;
+}
+.topnews_text a:hover {
+    text-decoration: underline;
+}
+.topnews_text p {
+    line-height: 25px
+}
+
+.news {
+    margin-top: 15px;
+}
+
+.news_header {
+    margin: 15px 0px 15px 0;
+}
+.news_header h1{
+    font-family: Arial;
+    font-size: 26px;
+    text-align: center;
+    margin: 0;
+}
+
+.news_content {
+    display: flex;
+    justify-content: space-between;
+}
+.news_content_column {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    margin-left: 20px;
+    border: lightgrey 1px solid;
+}
+.news_content_column:first-child {
+    margin: 0
+}
+.news_content_img img {
+    width: 100%;
+    height: 230px;
+}
+.news_content_title {
+    padding: 15px;
+    font-family: Arial;
+}
+.news_content_title h2 {
+    font-size: 20px;
+    margin: 0;
+}
+.news_content_title a{
+    text-decoration: none;
+    color: black;
+
+}
+.news_content_title p {
+    line-height: 20px;
+    margin: 15px 0px 15px 0px;
+}
+.news_content_title button {
+    background-color: darkred;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
